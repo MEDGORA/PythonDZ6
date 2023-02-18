@@ -13,7 +13,6 @@ list1 = []
 list1.append(a1)
 for i in range(2,n + 1) :
     list1.append(a1 + (i - 1) * d)
-print(list1)
 list2 = []
 for i in range(len(list1)) :
     if min <= list1[i] <= max :
